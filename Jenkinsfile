@@ -28,7 +28,7 @@ node {
      }
 
     stage("Image Prune"){
-        imagePrune(CONTAINER_NAME)
+        imagePrune(CONTAINER_NAME,CONTAINER_TAG )
     }
 
     stage('Image Build'){
